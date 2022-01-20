@@ -9,8 +9,14 @@ layout: default
   {{ interrogation | markdownify }}
 </div>
 
-<div class="section section-blog" id="blog">
-  {% include sections/blog.html %}
+<div class="section section-gmai" id="gmai">
+  {% capture gmai %}{% include sections/gmai.md %}{% endcapture %}
+  {{ gmai | markdownify }}
+</div>
+
+<div class="section section-dod" id="dod">
+  {% capture dod %}{% include sections/dod.md %}{% endcapture %}
+  {{ dod | markdownify }}
 </div>
 
 <div class="section section-about" id="about">

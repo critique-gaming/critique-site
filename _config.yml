@@ -27,6 +27,10 @@ excerpt_separator: "<!--more-->"
 nav_links:
   - title: Interrogation
     url: /interrogation
+  - title: Good Morning AI
+    url: /gmai
+  - title: Domains of Dusk
+    url: /dod
   - title: Blog
     url: /blog
   - title: About
